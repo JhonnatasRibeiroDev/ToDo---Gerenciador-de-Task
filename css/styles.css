@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family: 'Bebas Neue';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+:root{
+    --cor-fundo:#292828;
+}
+body{
+    background-color: var(--cor-fundo)
+}
+.container{
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+header i{
+    font-size: 40px;
+}
+.fa-plus{
+    margin-right: 30px;
+    padding: 5px 7px;
+    border: 4px solid #fff;
+    cursor: pointer;
+    border-radius: 13px;
+    transition: 0.3s;
+}
+.fa-plus:hover{
+    opacity: 30%;
+    transform: scale(1.1);
+}
+h1{
+    margin-left: 30px;
+    font-size: 40px;
+    padding-right: 50px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+}
+.conteudo{
+    
+}
+.pConteudo{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+.todoList{
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.322), transparent);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.todoList2{
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 540px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+.todo{
+    max-width: 500px;
+
+}
+.todo h3,.todo p, .todo i{
+    color: #292828;
+}
+.todo p{
+    text-align: justify;
+    margin-right: 20px;
+    
+}
+#input-titulo, #input-descricao{
+    color: #292828;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-infor{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: 1px solid #7e7b7b;
+}
+.btn{
+   display: flex;
+   border-left: 1px solid #ccc;
+}
+.hide{
+    display: none;
+}
+.btn i{
+    padding: 25px;
+    cursor: pointer;
+}
+.completa{
+    box-shadow: 0px 0px 13px rgb(0, 255, 55);
+    background-color: rgb(172, 255, 172);
+    color: white!important;
+}
+.btn-add{
+    text-align: center;
+}
+.apagar{
+    opacity: 0%;
+    transition: 0.5s ease-in;
+}
+.todo i{
+    transition: 0.3s;
+}
+.todo i:hover{
+    transform: scale(1.3);
+}
+.notificacao1{
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px red;
+}
+.notificacao2{
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px red;
+}
+.btn-criar{
+    padding: 10px 23px;
+    border-radius: 10px;
+    color: #292828;
+    background-color: #fff;
+    border: 2px solid 
+    #fff;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-cancelar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid 
+    #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+footer, p{
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+@media (max-width:500px) {
+   header h1{
+    font-size: 22px;
+   }
+
+.fa-plus{
+    margin: 10px 0px 10px 10px;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.btn{
+    color: black;
+    border:none;
+}
+h3.tituloConteudo{
+    text-align: center;
+}
+p.pConteudo {
+    margin: 0px;
+    text-align: justify;
+}
+.todoList2{
+    margin: 30px;
+}
+.add-infor{
+    width: 300px;
+}
+.notificacao1, .notificacao2{
+    width: 200px;
+
+}}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do - Gerenciar Task</title>
+</head>
+<body>
+    <section class="container" id="container">
+        <div class="telaPrincipal">
+            <header>
+                <div class="titulo">
+                    <i class="fa-solid fa-align-left fa-fade"></i>
+                    <h1>Suas Anotações</h1>
+                </div>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <main>
+                <div class="notificacao1">
+                    Tarefa não concluida!
+                </div>
+                <section class="todoList" id="todoList">
+                    <section class="todo ">
+                        <div class="conteudo" id="conteudo">
+                            <h3 class="tituloConteudo">Bem Vindo!</h3>
+                            <p class="pConteudo">Não se preocupe mais em perder anotações importantes ou esquecer compromissos importantes. Com o nosso app de anotações, você pode facilmente manter tudo sob controle e se concentrar no que realmente importa.</p>
+                        </div>
+                        <div class="btn" id="btn">
+                            <i class="fa-solid fa-check"></i>
+                            <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                    </section>
+                </section>
+            </main>
+        </div>
+        <div class="telaPrincipal2 hide">
+            <header>
+                <div class="titulo">
+                    <i class="fa-solid fa-align-left fa-fade"></i>
+                    <h1>Suas Anotações</h1>
+                </div>
+            </header>
+            <div class="notificacao2">
+                Tarefa não concluida!
+            </div>
+            <main>
+                <section class="todoList2">
+                   <input class="add-infor" type="text" name="" placeholder="titulo" id="input-titulo" class="input-titulo">
+                   <textarea placeholder="descrição" class="add-infor"  name="" id="input-descricao"></textarea>
+                </section>
+                <div class="btn-add">
+                    <button class="btn-cancelar">cancelar</button>
+                    <button class="btn-criar">criar</button>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>Criado por &copy;Jhonnatas Ribeiro</p>
+        </footer>
+    </section>
+</body>
+</html>
